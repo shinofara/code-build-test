@@ -4,6 +4,6 @@ import (
 	"testing"
 )
 
-func TestMain(t *testing) {
+func TestMain(t *testing.T) {
 	t.Error("Hello Error")
 }
